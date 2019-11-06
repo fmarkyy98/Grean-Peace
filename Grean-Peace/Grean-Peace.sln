@@ -5,6 +5,19 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grean-Peace", "Grean-Peace\Grean-Peace.vcxproj", "{FF0B4E17-8444-46A3-A701-034C55C53D68}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A26FC753-958A-49F6-B8F9-E4D6EFA5FABA}"
+	ProjectSection(SolutionItems) = preProject
+		feladat.pdf = feladat.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2F24B9D4-5B04-41C5-9385-1050F9A2EAEE}"
+	ProjectSection(SolutionItems) = preProject
+		Test\be1.txt = Test\be1.txt
+		Test\be2.txt = Test\be2.txt
+		Test\ki1.txt = Test\ki1.txt
+		Test\ki2.txt = Test\ki2.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F24B9D4-5B04-41C5-9385-1050F9A2EAEE} = {A26FC753-958A-49F6-B8F9-E4D6EFA5FABA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {238E29DE-3043-451B-A0F9-978AA47BCE1E}
